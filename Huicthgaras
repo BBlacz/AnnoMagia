@@ -59,11 +59,11 @@ for i in range (iteracje):
         #sprawdza powodzenie/niepowodzenie
         if all(sukces) == True:
             sukcesy=sukcesy+1
-            print('sukces')
+            #print('sukces')
             continue
         elif all(porażka) ==True:
             porażki=porażki+1
-            print('porażka')
+            #print('porażka')
             continue
 
 
@@ -101,11 +101,11 @@ for i in range (iteracje):
         #sprawdza powodzenie/niepowodzenie
         if all(sukces) == True:
             sukcesy=sukcesy+1
-            print('sukces')
+            #print('sukces')
             continue
         elif all(porażka) ==True:
             porażki=porażki+1
-            print('porażka')
+            #print('porażka')
             continue
 
         
