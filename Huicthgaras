@@ -32,8 +32,8 @@ for i in range (iteracje):
             
         wylosowaneKarty = random.sample(karty_w_grze,3) #zakładamy, że czarojdź się nie koncentruje
 
-        print("faza gry " + str(i) + " wylosowane karty: "+ kart_dict[wylosowaneKarty[0]] + ", " \
-              + kart_dict[wylosowaneKarty[1]] + ", " + kart_dict[wylosowaneKarty[2]])
+        #print("faza gry " + str(i) + " wylosowane karty: "+ kart_dict[wylosowaneKarty[0]] + ", " \
+        #      + kart_dict[wylosowaneKarty[1]] + ", " + kart_dict[wylosowaneKarty[2]])
         for karta in wylosowaneKarty:
             
             if karta[0] == '5' and (karta[1]=='2' or karta[1]=='4') and sukces[0]!=True:
@@ -76,8 +76,8 @@ for i in range (iteracje):
         
         wylosowaneKarty = random.sample(karty_w_grze,5)
         
-        print("faza słów " + str(i) + " wylosowane karty: "+ kart_dict[wylosowaneKarty[0]] + ", " + kart_dict[wylosowaneKarty[1]] + ", " \
-             + kart_dict[wylosowaneKarty[2]] + ", " + kart_dict[wylosowaneKarty[3]] + ", " + kart_dict[wylosowaneKarty[4]])
+        #print("faza słów " + str(i) + " wylosowane karty: "+ kart_dict[wylosowaneKarty[0]] + ", " + kart_dict[wylosowaneKarty[1]] + ", " \
+        #     + kart_dict[wylosowaneKarty[2]] + ", " + kart_dict[wylosowaneKarty[3]] + ", " + kart_dict[wylosowaneKarty[4]])
         for karta in wylosowaneKarty:
             
             if karta[0] == '5' and (karta[1]=='2' or karta[1]=='4') and sukces[0] != True:
